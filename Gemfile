@@ -29,6 +29,9 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # gem 'rack-cors'
 #gem paranoia
 gem 'paranoia', '~> 2.4.2'
+#AUTH: JWT, bcrypt
+gem 'jwt', '~> 2.2.1'
+gem 'bcrypt', '~> 3.1.13'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
